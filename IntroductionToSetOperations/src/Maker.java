@@ -11,7 +11,7 @@ public class Maker {
 
 	public static void main(String[] args) {
 		List<String> lines;
-		
+		//testup
 		try (BufferedWriter out = Files.newBufferedWriter(FileSystems.getDefault().getPath("output.txt"))){
 			lines = Files.readAllLines(Paths.get("input.txt"), StandardCharsets.UTF_8);
 			int n = Integer.parseInt(lines.get(0));
